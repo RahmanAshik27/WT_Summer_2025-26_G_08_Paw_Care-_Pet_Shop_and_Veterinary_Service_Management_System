@@ -54,3 +54,30 @@ main
 ## 📂 Project Status
 
 🚧 Project Proposal Phase
+
+## Database Setup
+
+The PawCare database files are available inside the `database` folder.
+
+### Recommended Setup
+
+1. Start Apache and MySQL from XAMPP.
+2. Open phpMyAdmin.
+3. Select the **Import** option.
+4. Import `database/pawcare_db.sql`.
+5. The `pawcare_db` database will be ready with all required tables and sample data.
+
+### Alternative Setup
+
+Import the following files in order:
+
+1. `database/schema.sql`
+2. `database/sample_data.sql`
+
+For detailed instructions, see `database/database_guide.md`.
+
+### Database Information
+
+- Database Name: `pawcare_db`
+- DBMS: MySQL
+- Total Core Tables: 13
