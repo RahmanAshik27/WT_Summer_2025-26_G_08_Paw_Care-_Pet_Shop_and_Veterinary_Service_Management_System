@@ -6,11 +6,12 @@ USE pawcare_db;
 -- =========================================
 
 INSERT INTO users
-(full_name, email, phone, gender, password, role, address)
+(full_name, username, email, phone, gender, password, role, address)
 VALUES
 
 (
 'PawCare Administrator',
+'pawcare_admin',
 'admin@pawcare.com',
 '01700000001',
 'Male',
@@ -21,6 +22,7 @@ VALUES
 
 (
 'Rahim Ahmed',
+'rahim_ahmed',
 'customer1@pawcare.com',
 '01700000002',
 'Male',
@@ -31,6 +33,7 @@ VALUES
 
 (
 'Sadia Islam',
+'sadia_islam',
 'customer2@pawcare.com',
 '01700000003',
 'Female',
@@ -41,6 +44,7 @@ VALUES
 
 (
 'Dr. Hasan Rahman',
+'dr_hasan',
 'doctor1@pawcare.com',
 '01700000004',
 'Male',
@@ -51,6 +55,7 @@ VALUES
 
 (
 'Dr. Nusrat Jahan',
+'dr_nusrat',
 'doctor2@pawcare.com',
 '01700000005',
 'Female',
@@ -61,6 +66,7 @@ VALUES
 
 (
 'Karim Uddin',
+'karim_delivery',
 'delivery1@pawcare.com',
 '01700000006',
 'Male',
@@ -71,6 +77,7 @@ VALUES
 
 (
 'Rafi Ahmed',
+'rafi_delivery',
 'delivery2@pawcare.com',
 '01700000007',
 'Male',
