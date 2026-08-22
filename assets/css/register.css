@@ -267,3 +267,14 @@ body.auth-page {
     color: #18794e;
     border: 1px solid #a9dfbf;
 }
+
+.field-error {
+    color: #b42318;
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+.form-group input.input-error {
+    border-color: #b42318;
+    background: #fff5f5;
+}
