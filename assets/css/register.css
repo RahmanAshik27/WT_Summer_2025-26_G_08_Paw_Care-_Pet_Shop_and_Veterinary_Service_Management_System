@@ -245,3 +245,25 @@ body.auth-page {
         font-size: 11px;
     }
 }
+
+.message {
+    padding: 12px 15px;
+    margin-bottom: 18px;
+
+    border-radius: 6px;
+
+    font-size: 13px;
+    text-align: center;
+}
+
+.error-message {
+    background: #ffe5e5;
+    color: #b42318;
+    border: 1px solid #f5b7b1;
+}
+
+.success-message {
+    background: #e7f7ed;
+    color: #18794e;
+    border: 1px solid #a9dfbf;
+}
